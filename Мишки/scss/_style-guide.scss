@@ -1,0 +1,73 @@
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	display: block;
+}
+li {
+	list-style: none;
+}
+.user-list__icon:hover {
+	opacity: 0.6;
+}
+.main-nav__wrapper a:hover,
+.main-nav__desktop a:hover {
+	opacity: 0.6;
+}
+.user-list__icon:active {
+	opacity: 0.3;
+}
+.main-nav__wrapper a:active,
+.main-nav__desktop a:active {
+	opacity: 0.3;
+}
+.button {
+	display: block;
+	width: 260px;
+	height: 52px;
+	border: 2px solid #444444;
+	color: #444444;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.button:hover {
+	background-color: #444444;
+	color: #fff;
+	cursor: pointer;
+}
+.button:active {
+	color: #7c7c7c;
+}
+.arrow:hover {
+	opacity: 0.6;
+	background-color: #fff;
+}
+.arrow:active {
+	opacity: 0.3;
+	background-color: #fff;
+}
+.contacts-email:hover {
+	color: #46c1ae;
+}
+.contacts-email:active {
+	opacity: 0.3;
+}
+.slogan-card__item a:active {
+	color: #97e2d2;
+}
+.card-product__add {
+	background-color: #63d1bb;
+	color: #fff;
+	border: none;
+}
+.card-product__add:hover {
+	background-color: #56c3b2;
+}
+@media screen and (min-width: 768px) {
+	.slogan-card__item:hover {
+		cursor: pointer;
+		margin-top: -5px;
+	}
+}
